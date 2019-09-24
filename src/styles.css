@@ -1,0 +1,49 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table thead {
+  background: lightgrey;
+  color: black;
+}
+
+table thead td {
+  padding: 12px;
+}
+
+table td {
+  padding: 12px;
+}
+
+table tbody tr:nth-child(even) {background: #ccc}
+
+.inputsearch {
+  margin: 20px;
+}
+
+.inputsearch input {
+  padding: 16px;
+  width: 20rem;
+  font-size: 1.2rem;
+}
+
+.empty td {
+  padding: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+.profile-wrapper {
+  width: 800px;
+  background: lightgrey;
+  margin: 0 auto;
+}
